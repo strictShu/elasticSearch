@@ -1,6 +1,6 @@
-# Table of Contents
+# ElasticSearch
 
-- [elasticsearch笔记](#elasticsearch笔记)
+- [elasticsearch](#elasticsearch)
   - [elasticsearch介绍](#elasticsearch介绍)
     - [elasticsearch是什么](#elasticsearch是什么)
     - [elasticsearch具备功能](#elasticsearch具备功能)
@@ -35,7 +35,7 @@
     - [full-text search](#full-text-search)
     - [phrase search(短语搜索_精确)](#phrase-search短语搜索_精确)
     - [highlight search(高亮搜索结果)](#highlight-search高亮搜索结果)
-- [聚合分析(group by avg sort等)](#聚合分析group-byavgsort等)
+  - [聚合分析(group by avg sort等)](#聚合分析group-byavgsort等)
   - [第四个分析需求 计算每个tag下商品的平均价格,并且按照平均价格排序](#第四个分析需求-计算每个tag下商品的平均价格并且按照平均价格排序)
   - [第五个分析需求 按照指定的价格范围区间进行分组,然后在每组内再按照tag进行分组,最后再计算每组的平均价格](#第五个分析需求-按照指定的价格范围区间进行分组然后在每组内再按照tag进行分组最后再计算每组的平均价格)
   - [elasticsearch 基础分布式介绍](#elasticsearch-基础分布式介绍)
@@ -55,7 +55,7 @@
 
 
 
-# 									elasticsearch笔记
+# 									elasticsearch
 
 ## elasticsearch介绍
 
@@ -744,7 +744,7 @@ GET /ecommerce/product/_search
 }
 ```
 
-# 聚合分析(group by+avg+sort等)
+###聚合分析(group by+avg+sort等)
 
 ​	嵌套聚合,下钻分析,聚合分析
 
